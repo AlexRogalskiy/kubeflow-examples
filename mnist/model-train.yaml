@@ -114,7 +114,7 @@ spec:
       # NOTE: need to detect master node complete
       successCondition: status.state == Succeeded
       manifest: |
-        apiVersion: "kubeflow.org/v1alpha1"
+        apiVersion: "kubeflow.org/v1alpha2"
         kind: "TFJob"
         metadata:
           name: {{workflow.parameters.job-name}}
