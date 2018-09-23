@@ -68,7 +68,7 @@
     local namespace = env.namespace,
 
     job:: {
-      apiVersion: "kubeflow.org/v1alpha2",
+      apiVersion: "kubeflow.org/v1alpha1",
       kind: "TFJob",
       metadata: {
         name: updatedParams.jobName,

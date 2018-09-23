@@ -35,7 +35,7 @@ local k = import "k.libsonnet";
       else {},
 
     tfJob(name, namespace, replicas):: {
-      apiVersion: "kubeflow.org/v1alpha2",
+      apiVersion: "kubeflow.org/v1alpha1",
       kind: "TFJob",
       metadata: {
         name: name,

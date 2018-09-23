@@ -11,7 +11,7 @@ local namespace = "default";
 local image = "gcr.io/kubeflow/tf-benchmarks-cpu:v20171202-bdab599-dirty-284af3";
 
 local tfjob = {
-  apiVersion: "kubeflow.org/v1alpha2",
+  apiVersion: "kubeflow.org/v1alpha1",
   kind: "TFJob",
   metadata: {
     name: name,

@@ -4,7 +4,7 @@ local params = std.extVar("__ksonnet/params").components["tfjob-pvc"];
 local k = import "k.libsonnet";
 
 local tfjob = {
-    apiVersion: "kubeflow.org/v1alpha2",
+    apiVersion: "kubeflow.org/v1alpha1",
     kind: "TFJob",
     metadata: {
       name: "tf-job-issue-summarization-pvc",

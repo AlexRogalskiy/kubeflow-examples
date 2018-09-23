@@ -1,6 +1,6 @@
 {
   parts(params):: {
-    apiVersion: "kubeflow.org/v1alpha2",
+    apiVersion: "kubeflow.org/v1alpha1",
     kind: "TFJob",
     metadata: {
       name: "tf-job-issue-summarization",
